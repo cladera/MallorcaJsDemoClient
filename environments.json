@@ -1,0 +1,10 @@
+{
+  "all": {
+    "api": {
+      "endpoint": "http://localhost:3000/"
+    }
+  },
+  "development": {},
+  "production": {},
+  "test": {}
+}
