@@ -5,6 +5,10 @@
     }
   },
   "development": {},
-  "production": {},
+  "production": {
+    "api": {
+      "endpoint": "http://54.147.234.162/"
+    }
+  },
   "test": {}
 }
