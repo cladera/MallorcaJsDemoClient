@@ -8,7 +8,7 @@
  * Controller of the MallorcaJsDemoClient
  */
 
-function MainController(Account) {
+function MainController(Article) {
   var vm = this;
   vm.articles = [];
 
@@ -16,7 +16,7 @@ function MainController(Account) {
     return getArticles();
   }
   function getArticles(){
-    var promise = Account.query().$promise;
+    var promise = Article.query().$promise;
     promise.then(function(data){
       vm.articles = data;
       return vm.articles;

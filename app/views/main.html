@@ -1,7 +1,1 @@
-<article ng-repeat="article in vm.articles | orderBy : '-createdAt'">
-  <header>
-    <h1>{{article.title}}</h1>
-  </header>
-  <p class="body">{{article.body}}</p>
-  <footer>Created at {{article.createdAt}}</footer>
-</article>
+<mjs-article ng-repeat="article in vm.articles" article="article"></mjs-article>

@@ -16,7 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'MallorcaJsDemoClientConfig'
+    'MallorcaJsDemoClientConfig',
+    'hc.marked'
   ])
   .config(function ($routeProvider) {
     $routeProvider

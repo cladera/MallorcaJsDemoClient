@@ -1,0 +1,7 @@
+<article>
+  <header>
+    <h1>{{vm.article.title}}</h1>
+  </header>
+  <p class="body" marked="vm.article.body"></p>
+  <footer ng-if="vm.article.createdAt">Created at {{vm.article.createdAt}}</footer>
+</article>
